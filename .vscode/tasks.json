@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "command": "npm",
+  "command": "gulp",
   "isShellCommand": true,
   "showOutput": "always",
   "suppressTaskName": true,
@@ -23,6 +23,12 @@
           "message": 4
         }
       }
+    },
+    {
+      "taskName": "test.watch",
+      "echoCommand": true,
+      "isWatching": true,
+      "isTestCommand": true
     }
   ]
 }
